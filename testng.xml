@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+<listeners>
+<listener class-name="Portal.E2EProject.Listeners"></listener>
+
+</listeners>
+	<test thread-count="5" name="Portal.E2EProject.LoginTest">
+		<parameter name="username" value="Priyank"></parameter>
+		<parameter name="password" value="Priyank123"></parameter>
+		<classes>
+			<class name="Portal.E2EProject.LoginTest" />
+		</classes>
+	</test>
+ 
+	<test thread-count="5" name="LinkVerificationTest">
+		<classes>
+			<class name="Portal.E2EProject.LinkDisplayed" />
+		</classes>
+	</test> 
+
+</suite> <!-- Suite -->
