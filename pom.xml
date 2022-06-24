@@ -5,7 +5,7 @@
 
 	<groupId>Portal</groupId>
 	<artifactId>E2EProject</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 
 	<name>E2EProject</name>
 	<!-- FIXME change it to the project's website -->
@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.1.4</version>
+			<version>4.2.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
