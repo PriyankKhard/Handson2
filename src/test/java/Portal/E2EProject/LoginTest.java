@@ -29,7 +29,7 @@ WebDriver driver;
 		log.info("URL Retrieved");
 		log.debug("getURL method call Successful");
 		driver.manage().window().maximize();
-		log.info("Windows Maximized Successfully *****");
+		log.info("Windows Maximized Successfully ****");
 		DashboardPage dp = new DashboardPage(driver);
 		// driver.findElement(By.xpath("//li[@data-cy='account']")).click();
 
