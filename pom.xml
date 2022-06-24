@@ -5,7 +5,7 @@
 
 	<groupId>Portal</groupId>
 	<artifactId>E2EProject</artifactId>
-	<version>0.0.9-SNAPSHOT</version>
+	<version>0.1.0-SNAPSHOT</version>
 
 	<name>E2EProject</name>
 	<!-- FIXME change it to the project's website -->
@@ -34,8 +34,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.6.0</version>
-			<scope>test</scope>
-		</dependency>
+					</dependency>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
